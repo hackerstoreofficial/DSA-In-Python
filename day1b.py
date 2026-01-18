@@ -47,3 +47,30 @@ fruits[3] = "Pineapple"
 print(fruits)
 fruits[-3] = "Berry"
 print(fruits)
+
+# Contactenating two arrays using the + operator
+concat = [1, 2 , 3]
+print(concat)
+
+concat + [4, 5 ,6]
+print(concat)
+
+concat = concat + [4, 5, 6]
+print(concat)
+
+# Repeating Element in an array
+repeat = ["Hacker"]
+print(repeat)
+
+repeat = repeat * 5
+print(repeat)
+
+# Slicing of an array
+fruits = ["Apple", "Banana", "Guava", "Grapes", "Mango"]
+print(fruits)
+
+print(fruits[1 : 4])            # It will print from index 1 to 3 and not the 4th index ( it will only print from the starting upto the n-1 (where n is the last term))
+print(fruits[  : 3])            # It will print from index 0 means from starting to 2
+print(fruits[-4 : ])             # It will print from index -4 to the end of the string
+print(fruits[-3 : -1])           # It will print from -3 to -2 
+
