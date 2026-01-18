@@ -1,3 +1,18 @@
+'''
+Methods          Functions
+append()           to add element to the end of the list
+extend ( )          to extend all elements of a list to the another list
+Insert()              to insert an element at the another index
+remove()           to remove an element from the list
+pop()                 to remove elements return element at the given index
+clear()                to remove all elements from the list
+Index()               to return the Index of the first matched element
+count()               to count of number of elements passed as an argument
+sort()                  to sort the elements in ascending order by default
+reverse()             to reverse order element in a list
+copy()                 to return a copy of elements in the list 
+'''
+
 #Defining and Printing index of array
 arr = [10, 20, 30, 40, 50]
 print(arr)
