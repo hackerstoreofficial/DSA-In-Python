@@ -1,5 +1,4 @@
 '''
-Docstring for day1a
 This is multiple line comment 
 That is being used to giving long sentence comments
 '''
