@@ -74,3 +74,14 @@ print(fruits[  : 3])            # It will print from index 0 means from starting
 print(fruits[-4 : ])             # It will print from index -4 to the end of the string
 print(fruits[-3 : -1])           # It will print from -3 to -2 
 
+# Declaring and Defining multidimentional array
+multd = [[1, 2], [3, 4], [5,6], [7,8]]
+print(multd)
+multd.append([9, 10])
+print(multd)
+
+print(multd[1])
+print(multd[-1])
+print(multd[2][0])
+print(multd[4][-1])
+print(multd[-1][-1])
